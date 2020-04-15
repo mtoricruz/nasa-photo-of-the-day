@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import axios from 'axios'
+import axios from 'axios';
 import "./App.css";
 import NavigationSection from "./components/NavigationSection/navigation";
 
@@ -25,7 +25,7 @@ function App() {
     <div className="App">
       <NavigationSection />
       <div className="NASAcardImg">
-        {nasaData && <img src={nasaData.url} />}
+        {nasaData && <img src={nasaData.url} alt='Pic of the Day'/>}
       </div>
       <div className="titleAndDate">
         

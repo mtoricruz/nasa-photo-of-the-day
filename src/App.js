@@ -35,9 +35,9 @@ function App() {
        {/* <div className="NASAcardImg">
         {nasaData && <img src={nasaData.url} alt='Pic of the Day'/>}
         </div>  */}
-      <ImgSection imgURL={nasaData} />  
+      <ImgSection imgURL={nasaData.url} />  
       {/*Text Section */}
-      <TextsSection />
+      <TextsSection title={nasaData.title} date={nasaData.date} explanation={nasaData.explanation}/>
     </div>
   );
 }

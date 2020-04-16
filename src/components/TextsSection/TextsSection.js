@@ -1,14 +1,14 @@
 import React from "react";
 
-const TextsSection = () => {
+const TextsSection = ({ title, date, explanation }) => {
     return (
         <div className="text-container">
         <div className="title-and-date">
-            <h2>-title-</h2> 
-            <h5>-date-</h5>
+            <h2>{title}</h2> 
+            <h5>{date}</h5>
         </div>
         <div>
-          <p>-explanation-</p>
+          <p>{explanation}</p>
         </div>
       </div>
     )

@@ -4,6 +4,7 @@ import "./App.css";
 import NavigationSection from "./components/NavigationSection/navigation";
 import ImgSection from "./components/ImgSection/img";
 import TextsSection from "./components/TextsSection/TextsSection"
+// import styled components below, no need to import styled from styled-components
 
 const url = 'https://api.nasa.gov/planetary/apod?api_key='
 const api_key = '69vJxy2i2JM4jJSeMGboklPEKtx3ZCwaaLO4PSei'
